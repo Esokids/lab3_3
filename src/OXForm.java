@@ -27,6 +27,8 @@ public class OXForm {
             public void actionPerformed(ActionEvent e) {
                 col = 0;
                 row = 0;
+                if(!ox.get(col,row).equals("-"))
+                    JOptionPane.showMessageDialog(null, "Please put to another box");
                 if(ox.put(col,row)){
                     render();
                     process();
@@ -38,6 +40,8 @@ public class OXForm {
             public void actionPerformed(ActionEvent e) {
                 col = 1;
                 row = 0;
+                if(!ox.get(col,row).equals("-"))
+                    JOptionPane.showMessageDialog(null, "Please put to another box");
                 if(ox.put(col,row)){
                     render();
                     process();
@@ -49,6 +53,8 @@ public class OXForm {
             public void actionPerformed(ActionEvent e) {
                 col = 2;
                 row = 0;
+                if(!ox.get(col,row).equals("-"))
+                    JOptionPane.showMessageDialog(null, "Please put to another box");
                 if(ox.put(col,row)){
                     render();
                     process();
@@ -60,6 +66,8 @@ public class OXForm {
             public void actionPerformed(ActionEvent e) {
                 col = 0;
                 row = 1;
+                if(!ox.get(col,row).equals("-"))
+                    JOptionPane.showMessageDialog(null, "Please put to another box");
                 if(ox.put(col,row)){
                     render();
                     process();
@@ -71,6 +79,8 @@ public class OXForm {
             public void actionPerformed(ActionEvent e) {
                 col = 1;
                 row = 1;
+                if(!ox.get(col,row).equals("-"))
+                    JOptionPane.showMessageDialog(null, "Please put to another box");
                 if(ox.put(col,row)){
                     render();
                     process();
@@ -82,6 +92,8 @@ public class OXForm {
             public void actionPerformed(ActionEvent e) {
                 col = 2;
                 row = 1;
+                if(!ox.get(col,row).equals("-"))
+                    JOptionPane.showMessageDialog(null, "Please put to another box");
                 if(ox.put(col,row)){
                     render();
                     process();
@@ -93,6 +105,8 @@ public class OXForm {
             public void actionPerformed(ActionEvent e) {
                 col = 0;
                 row = 2;
+                if(!ox.get(col,row).equals("-"))
+                    JOptionPane.showMessageDialog(null, "Please put to another box");
                 if(ox.put(col,row)){
                     render();
                     process();
@@ -104,6 +118,8 @@ public class OXForm {
             public void actionPerformed(ActionEvent e) {
                 col = 1;
                 row = 2;
+                if(!ox.get(col,row).equals("-"))
+                    JOptionPane.showMessageDialog(null, "Please put to another box");
                 if(ox.put(col,row)){
                     render();
                     process();
@@ -115,6 +131,8 @@ public class OXForm {
             public void actionPerformed(ActionEvent e) {
                 col = 2;
                 row = 2;
+                if(!ox.get(col,row).equals("-"))
+                    JOptionPane.showMessageDialog(null, "Please put to another box");
                 if(ox.put(col,row)){
                     render();
                     process();
